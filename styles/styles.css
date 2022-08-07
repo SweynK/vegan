@@ -15,7 +15,7 @@ body{
     
 }
 ul{
-    width: 500px;
+    width: 600px;
     height: 150px;
     display:flex;
     justify-content: space-between;
@@ -53,7 +53,7 @@ li:hover{
     background-color: #79B331;
     border-radius: 50%;
     position: relative;
-    animation: spinning 3s infinite;
+    animation: spinning 5s infinite;
 }
 @keyframes spinning {
     0% {top:0; left:0;}
@@ -84,16 +84,6 @@ li:hover{
     background-color: #C4C4C4;
     
 }
-/* დროებითი ხერხი ლაინის დასაფარად */
-/* .hideCircle{
-    width: 30px;
-    height: 30px;
-    background-color: #fdfdfd;
-    position: absolute;
-    top:0;
-    left:529px;
-    
-} */
 .fotoli1{
     width: 530px;
     height: 125px;
@@ -102,6 +92,9 @@ li:hover{
     display: flex;
     justify-content: flex-end;
     font-size: 18px;
+}
+.fotoli1:hover{
+    color: #79B331;
 }
 .fotoli2{
     width: 530px;
@@ -113,6 +106,9 @@ li:hover{
     justify-content: flex-start;
     font-size: 18px;
 }
+.fotoli2:hover{
+    color: #79B331;
+}
 .fotoli3{
     width: 530px;
     height: 125px;
@@ -121,6 +117,9 @@ li:hover{
     display: flex;
     justify-content: flex-end;
     font-size: 18px;
+}
+.fotoli3:hover{
+    color: #79B331;
 }
 .fotoli4{
     width: 530px;
@@ -132,6 +131,10 @@ li:hover{
     justify-content: flex-start;
     font-size: 18px;
 }
+.fotoli4:hover{
+    color: #79B331;
+}
+
 .treeFotoli1{
     width: 70px;
     height: 70px;
@@ -168,6 +171,209 @@ li:hover{
 .treeText4{
     text-align: center;
 }
-.treebox p:hover{
-    color: #79B331;
+
+/* magaziebis gverdi */
+.magaziebisSatauri{
+    margin-left: 800px;
+    padding:50px;
 }
+.mainMagazineContainer{
+    width: 420px;
+    height: 420px;
+    margin-left: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.kContainer1{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kContainer1:hover{
+    background-color: #79B331;
+}
+.kContainer2{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kContainer2:hover{
+    background-color: #79B331;
+}
+.kContainer3{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kContainer3:hover{
+    background-color: #79B331;
+}
+.kContainer4{
+    width: 200px;
+    height: 200px;
+    background-color:#C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kContainer4:hover{
+    background-color: #79B331;
+}
+.magaziebisBolosatauri{
+    margin-left: 800px;
+    padding:50px;
+}
+.magazineLastBox{
+    width: 420px;
+    height: 70px;
+    background-color: #C4C4C4;
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.magazineLastBox:hover{
+    background-color: #79B331;
+}
+/* shopis gverdi */
+
+.shopMainBox{
+    width: 639px;
+    height: 420px;
+    margin-top: 100px;
+    margin-left: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.shopKidBox1{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopKidBox1:hover{
+    background-color: #79B331;
+}
+.shopKidBox2{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopKidBox2:hover{
+    background-color: #79B331;
+}
+.shopKidBox3{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopKidBox3:hover{
+    background-color: #79B331;
+}
+.shopKidBox4{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopKidBox4:hover{
+    background-color: #79B331;
+}
+.shopKidBox5{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopKidBox5:hover{
+    background-color: #79B331;
+}
+.shopKidBox6{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopKidBox6:hover{
+    background-color: #79B331;
+}
+.productBox{
+    width: 512px;
+    height: 336px;
+    margin-left: 550px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+.buttoni1{
+    width: 225px;
+    height: 38px;
+    background-color: #C4C4C4;
+    text-align: center;
+    border-radius: 0 35px 0 35px; 
+    cursor: pointer;   
+}
+.buttoni1:hover{
+    background-color: #79B331;
+    color: #ffffff;
+}
+
+.buttoni2{
+    width: 225px;
+    height: 38px;
+    background-color: #C4C4C4;
+    text-align: center;
+    border-radius: 0 35px 0 35px;
+    cursor: pointer; 
+    
+}
+.buttoni2:hover{
+    background-color: #79B331;
+    color: #ffffff;
+}
+.shoplist{
+    width: 152px;
+    height: 408px;
+    margin-left: 1150px;
+    position: absolute;
+    top:220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+
+
