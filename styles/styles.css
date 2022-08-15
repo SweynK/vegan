@@ -8,11 +8,26 @@
 
 body{
     width: 100%;
-    height: 980px;
     background-image: url(../img/background.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+
+
     
+}
+.icon{
+    width: 35px;
+    height: 35px;  
+    display: flex;
+    flex-wrap: wrap;
+    display:none;
+    
+}
+.iconLine{
+    width: 35px;
+    height: 6px;
+    background-color: #000000;
 }
 ul{
     width: 600px;
@@ -76,6 +91,9 @@ li:hover{
     margin-left: 280px;
     margin-top: 130px;
     padding-top: 30px;
+    display: flex;
+    overflow: hidden;
+    
 }
 .line{
     width: 2px;
@@ -140,6 +158,7 @@ li:hover{
     height: 70px;
     background-color: #79B331;
     border-radius: 0 35px 0 35px;
+
 }
 .treeText1{
     text-align: center;
@@ -149,6 +168,8 @@ li:hover{
     height: 70px;
     background-color: #79B331;
     border-radius: 35px 0 35px 0;
+    
+    
 }
 .treeText2{
     text-align: center;
@@ -167,6 +188,9 @@ li:hover{
     height: 70px;
     background-color: #79B331;
     border-radius: 35px 0 35px 0;
+   
+    
+    
 }
 .treeText4{
     text-align: center;
@@ -373,7 +397,110 @@ li:hover{
     flex-wrap: wrap;
     justify-content: flex-end;
     text-align: center;
+    
+}
+.shoplist p{
+    cursor: pointer;
+    padding: 5px;
 }
 
+@media screen and (max-width: 1024px){
+    .animation{
+        margin-left: 500px;
+    }
+    ul{
+        margin-left: 250px;
+    }
+    .fotoli2{
+        top:125px;
+        left:0px;
+        transform: rotate(180deg);  
+        justify-content: flex;
+    }
+    .treeFotoli2{
+        transform: rotate(90deg);
+        margin-top: 50px;
+        
+        
+    }
+    .treeText2{
+        transform: rotate(180deg);
+    }
+    .fotoli4{
+        top:375px;
+        left:0px;
+        transform: rotate(180deg);  
+    }
+    .treeFotoli4{
+        transform: rotate(90deg);
+        margin-top: 50px;
+        
+       
+        
+    }
+    .treeText4{
+        transform: rotate(180deg);
+    }
+    .treebox{
+        margin-left: 250px;
+        width: 600px;
+    }
+    .line{
+        margin-left: 530px;
+    }
+    
+}
+@media screen and (max-width:510px) {
+    li{
+        display: none;
+    }
+    ul{
+        width: 200px;
+    }
+    .icon{
+        display:flex;
+        margin-left: 150px;
+    }
+    .animation{
+        margin-left: 60px;
+    }
+    .line{
+        display: none;
+    }
+    
+    .fotoli1{
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: 10px;
+    }
+    .fotoli2{
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: 10px;
+    }
+    .fotoli3{
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: 10px;
+    }
+    .fotoli4{
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .treeFotoli2{
+        margin-top: 0;
+        
+    }
+    .treeFotoli4{
+        margin-top: 0;
+      
+    }
+    .treebox{
+        margin-left: 0;
+        width: 400px;
+    }
+}
 
 
